@@ -1,13 +1,13 @@
-package com.secusoft.dlock.test;
+package com.wind.j.dlock.test;
 
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 import com.wind.j.dlock.annotation.Dlock4j;
 
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
-@Component
+@Service
 public class UserServiceImpl implements UserService {
 
 	@Dlock4j
@@ -36,7 +36,7 @@ public class UserServiceImpl implements UserService {
 	public void timeout1Test(String name) {
 		log.info("timeout1Test name is {}，timeout 5 secend", name);
 		try {
-			Thread.sleep(2000);
+			Thread.sleep(5000);
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}

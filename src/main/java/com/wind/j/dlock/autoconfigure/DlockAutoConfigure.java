@@ -14,7 +14,6 @@ import com.wind.j.dlock.util.DlockUtil;
 /**
  * 自动配置
  * 
- * @Package:com.secusoft.dlock.autoconfigure
  * @company:secusoft
  * @author:jiangpeng
  * @date:2020年4月30日 下午5:27:36

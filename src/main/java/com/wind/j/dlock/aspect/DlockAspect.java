@@ -24,7 +24,7 @@ public class DlockAspect {
 	@Setter
 	private ExecutorBase executorBase;
 
-	@Pointcut("@annotation(com.secusoft.dlock.annotation.Dlock4j)")
+	@Pointcut("@annotation(com.wind.j.dlock.annotation.Dlock4j)")
 	public void pointcut() {
 	}
 

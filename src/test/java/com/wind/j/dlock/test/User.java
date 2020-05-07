@@ -1,4 +1,4 @@
-package com.secusoft.dlock.test;
+package com.wind.j.dlock.test;
 
 import lombok.Data;
 

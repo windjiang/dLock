@@ -8,7 +8,7 @@
 		<version>2.2.6.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.secusoft.vi</groupId>
+	<groupId>com.wind.j</groupId>
 	<artifactId>dlock4j-spring-boot-starter</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
